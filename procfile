@@ -1,1 +1,1 @@
-web: pm2 start pm2-dev.json
+web: node pm2
