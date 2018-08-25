@@ -1,0 +1,18 @@
+
+{
+  "name": "testAgain",
+  "version": "0.0.1",
+  "description": "fullfillment experiment for dialogflow agent",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Auttapon siriwaramas",
+  "license": "ISC",
+  "dependencies": {
+    "actions-on-google": "^2.0.0",
+    "express": "^4.14.0",
+    "axios":"^0.18.0"
+  }
+}
