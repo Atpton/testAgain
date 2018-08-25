@@ -5,7 +5,8 @@
   "description": "fullfillment experiment for dialogflow agent",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "preinstall": "npm install pm2 -g",
+    "start": "pm2 start server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Auttapon siriwaramas",
