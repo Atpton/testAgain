@@ -4,7 +4,7 @@ const app = express();
 const port = process.env.PORT || 80;
 const path = require('path');
 app.get("/",(req,res)=>{
-    res.send("Hello word");
+    res.send("Hello word1");
 });
 
 app.get("/dashboard",(req,res,next)=>{
